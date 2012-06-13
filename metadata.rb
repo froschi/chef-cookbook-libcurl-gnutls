@@ -6,3 +6,10 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.1"
 
 %w/ubuntu/.each { |os| supports os }
+
+depends          "ca-certificates", ">= 0.0.1"
+depends          "libgcrypt", ">= 0.0.1"
+depends          "libgidn", ">= 0.0.1"
+depends          "libgldap", ">= 0.0.1"
+depends          "libgnutls", ">= 0.0.1"
+depends          "libgssapi-krb5", ">= 0.0.1"
